@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.main-menu {
+	background-color: aliceblue;
+}
+.nav1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px 0 10px;
+}
+.nav1 h1 {
+	font-family: sans-serif;
+	margin-bottom: 0;
+}
+.nav1 a {
+	font-family: sans-serif;
+	color: brown;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+/*AQUI ACABA LA PRIMERA PARTE*/
+.nav2 ol {
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
+.nav2 ol li {
+	list-style: none;
+	margin-right: 10px;
+	text-align: center;
+}
+.nav2 ol li a {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+/*LOS MENUS*/
+
+.lasfrutas {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.lasfrutas2 {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.fa {
+	margin-right: 10px;
+	text-align: center;
+	background-color: aliceblue;
+	width: 400px;
+	height: 430px;
+}
+
+.fa a {
+	color: black;
+	text-decoration: none;
+	background-color: lightyellow;
+	padding: 10px 15px 10px 15px;
+	font-family: sans-serif;
+}
+.fa img {
+	width: 400px;
+	height: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+
+
+@media (max-width: 1240px) {
+	.lasfrutas {
+		display: grid;
+	}
+	.lasfrutas2 {
+		display: grid;
+	}
+	.fa {
+		margin-top: 10px;
+		width: 240px;
+		height: 280px;
+	}
+	.fa img {
+		width: 240px;
+		height: 190px;
+	}
+}
+
+
+@media (min-width: 1080px) {
+	.nav2 {
+		display: flex;
+		justify-content: center;
+	}
+}
